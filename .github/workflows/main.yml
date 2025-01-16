@@ -16,6 +16,7 @@ jobs:
         run: echo "Executando o envio da imagem docker"
   cd:
     runs-on: ubuntu-latest
+    needs: [ci]
     steps:
       - name: Autenticar na AWS
         run: echo "Autenticar na AWS"
