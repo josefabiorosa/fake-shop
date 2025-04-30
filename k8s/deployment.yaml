@@ -57,7 +57,7 @@ spec:
     spec:
       containers:
       - name: postgre
-        image: josefabiorosa/fake-shop:v2
+        image: josefabiorosa/fake-shop
         ports:
           - containerPort: 5000
         env:
